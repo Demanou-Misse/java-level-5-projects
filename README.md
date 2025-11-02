@@ -1,7 +1,7 @@
 # Java + PostgreSQL Projects 💾
 
 Welcome!  
-This repository contains three solid Java projects integrated with PostgreSQL.  
+This repository contains two solid Java projects integrated with PostgreSQL.  
 They are designed to strengthen my skills in **SQL, JDBC, database modeling, and layered architecture (DAO, Service, Model)**.
 
 Each project is console-based, well-structured, and ready to be extended or refactored.
@@ -44,39 +44,6 @@ Each project is console-based, well-structured, and ready to be extended or refa
 
 📌 **Concepts Used:** Relational database design, JDBC, SQL aggregation, Service-DAO pattern  
 📂 **Folder:** `/StudentInformationSystem`
-
----
-
-### ✅ 3. Expense Tracker
-**Goals:**
-- Track daily expenses with categories  
-- Perform CRUD operations on expenses and categories  
-- Generate monthly and category-based reports  
-
-**What it does:**
-- Add, update, delete expenses  
-- Categorize expenses (Food, Transport, Leisure, etc.)  
-- Search by date or category  
-- Display total monthly spending and top expense category  
-
-📌 **Concepts Used:** JDBC, SQL Group By, Aggregation functions, Service-DAO pattern  
-📂 **Folder:** `/ExpenseTracker`
-
----
-
-## 🛠️ Project Structure
-Each project follows the same clean structure:  
-
-src/
-├── dao/ # Database access layer (CRUD operations)
-├── model/ # Java classes mapping database tables
-├── service/ # Business logic
-├── util/ # Database connection and helpers
-├── app/ # Main entry point
-resources/
-├── schema.sql # Database schema
-├── data.sql # Sample data
-
 
 ---
 
